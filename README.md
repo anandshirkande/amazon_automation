@@ -21,6 +21,7 @@ Technology Stack :
   -TestNG
   -Maven
   -Extent Report for Cucumber
+ 
   
 Features:
 There are two feature files at path src/test/resources/features/
@@ -78,7 +79,10 @@ Report:-
 You can see report in  'target/Automation_reports/Automation_Report.html'. Please open this html file in browser.
 
 
-
+Branch Implementing_Page_Factory Notes:
+If you want to see page factory pattern implementation then check for branch 'Implementing_Page_Factory'. I have implemented 
+page factory pattern in class Home_Page.java. 
+In other two classes I am fetching property file values in locators at runtime. So I can not use page factory in Daily_Forecast.java and Hourly_Forecast.java classes.
 
 
 
