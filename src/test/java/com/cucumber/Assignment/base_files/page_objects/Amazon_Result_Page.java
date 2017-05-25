@@ -23,12 +23,17 @@ public class Amazon_Result_Page extends ParentPage {
 
 
 
-    public void Fetch_Required_Product_Details(String strCriterion, Integer maxValue){
+    public void Fetch_Required_Product_Details(String strCriterion, float maxValue){
 
         List<WebElement> list_Result = get_Element_List(li_Result_Item);
         String strName = "";
+        boolean result = false;
 
         for (int i =0; i< list_Result.size(); i++){
+
+            if (result){
+                break;
+            }
 
             switch (strCriterion.toLowerCase()){
 
@@ -36,7 +41,7 @@ public class Amazon_Result_Page extends ParentPage {
 
                     String strTempValue = list_Result.get(i).findElement(By.xpath("//span[contains(@class, 's-price')]")).getText();
                     strTempValue = strTempValue.replace("£", "");
-                    Integer intValue = Integer.valueOf(strTempValue);
+                    float intValue = Float.valueOf(strTempValue);
 
                     if (intValue <= maxValue){
 
@@ -45,7 +50,13 @@ public class Amazon_Result_Page extends ParentPage {
                         System.out.println("Name of Product is "+strName);
 
                         System.out.println("Price of Product is "+ strTempValue);
+
+                        result = true;
+                        break;
                     }
+
+                    break;
+
 
             }
         }

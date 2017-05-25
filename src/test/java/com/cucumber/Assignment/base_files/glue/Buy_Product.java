@@ -34,6 +34,7 @@ public class Buy_Product extends ParentScenario {
 
    @And("I should be able to fetch product details with filter criterion as \"(.*)\" and Value as \"(.*)\"")
     public void Fetch_Product_Details(String strCriterion, String strValue){
-
+       float temp = Float.valueOf(strValue);
+       obj_Amazon_Result_Page.Fetch_Required_Product_Details(strCriterion, temp);
    }
 }
