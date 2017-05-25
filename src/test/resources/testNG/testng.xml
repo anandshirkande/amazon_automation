@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test runner" parallel="classes" thread-count="2">
-    <test name="BUILDIT Tutorial">
+    <test name="MatchesFashion Tutorial">
         <packages>
-            <package name="com.cucumber.BuildIT.base_files.runners.*"/>
+            <package name="com.cucumber.MatchesFashion.base_files.runners.*"/>
         </packages>
     </test>
 </suite>

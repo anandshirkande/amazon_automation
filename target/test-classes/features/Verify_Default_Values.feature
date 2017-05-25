@@ -1,7 +1,7 @@
 Feature: To verify default screen /home screen for weather forecast report application.
 
 
-  @runRegression
+  @runSmoke
   Scenario Outline: Verify headline and number of columns
 
     Given I have entered the city as "<City>" to know weather forecast report
