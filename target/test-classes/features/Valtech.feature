@@ -1,7 +1,7 @@
 Feature: To verify base functionality on Valtech site
 
 
-  @runSmoke
+
   Scenario Outline: Validate H1 tags
 
     Given I am on Valtech website
@@ -12,7 +12,14 @@ Feature: To verify base functionality on Valtech site
     Examples:
       |Module   |
       |About    |
-      #|Services |
-      #|Work     |
+      |Services |
+      |Work     |
+
+  @runSmoke
+  Scenario: Verify contact page info
+
+    Given I am on Valtech website
+    When I navigate to contacts page
+    Then I should see all offices over the world
 
 

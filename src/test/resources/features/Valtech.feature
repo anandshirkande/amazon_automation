@@ -15,4 +15,11 @@ Feature: To verify base functionality on Valtech site
       |Services |
       |Work     |
 
+  @runSmoke
+  Scenario: Verify contact page info
+
+    Given I am on Valtech website
+    When I navigate to contacts page
+    Then I should see all offices over the world
+
 

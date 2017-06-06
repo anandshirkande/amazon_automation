@@ -20,6 +20,7 @@ public class Home_Page extends ParentPage {
     By menu_item = By.xpath("//li[@class='navigation__menu__item']");
     By h1_tag = By.xpath("//h1");
     By section_recent_study = By.xpath("//section[@class='startpage__bloglisting']");
+    By contact_menu_icon =By.xpath("//div[@class='hamburger__front_lang']//i[contains(@class, 'icons')]");
 
 
     public Home_Page(WebDriver driver){
@@ -70,10 +71,11 @@ public class Home_Page extends ParentPage {
             default:
 
         }
-
         Assert.assertEquals( strTag.trim(), get_Element_Text(h1_tag),"H1 Tag mismatched");
+    }
 
-
-
+    public void navigate_to_contacts_page(){
+        wait_explicit_till_element_Displayed(contact_menu_icon);
+        click(contact_menu_icon);
     }
 }

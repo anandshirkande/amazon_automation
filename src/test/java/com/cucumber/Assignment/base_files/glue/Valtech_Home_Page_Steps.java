@@ -34,8 +34,13 @@ public class Valtech_Home_Page_Steps extends ParentScenario {
          obj_home_Page.verify_H1_tag(strModulePage);
     }
 
-    @When("I navigate to contact page")
+    @When("I navigate to contacts page")
     public void navigate_to_contact_page(){
+         obj_home_Page.navigate_to_contacts_page();
+    }
 
+    @Then("I should see all offices over the world")
+    public void verify_all_offices_displayed(){
+        obj_contact_page.verify_list_of_offices_displayed();
     }
 }
