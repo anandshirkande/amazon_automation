@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd020ef-737e-4af9-9c86-c2181d6b267b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/pageObjects/Home_Page.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/pageObjects/Home_Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/Valtech.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Valtech.feature" />
     </list>
     <ignored path="BuildIT_Anand_Tutorial.iws" />
@@ -67,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Valtech.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Valtech.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Valtech.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="189">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -93,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home_Page.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/pageObjects/Home_Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
@@ -192,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Buy_Product.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Valtech_Home_Page_Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Valtech.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/pageObjects/Home_Page.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Valtech.feature" />
       </list>
     </option>
   </component>
@@ -1251,14 +1250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Valtech.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/pageObjects/Home_Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -1266,6 +1257,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Valtech.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

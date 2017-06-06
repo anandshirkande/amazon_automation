@@ -12,7 +12,7 @@ Feature: To verify base functionality on Valtech site
     Examples:
       |Module   |
       |About    |
-      #|Services |
-      #|Work     |
+      |Services |
+      |Work     |
 
 
