@@ -38,6 +38,7 @@ public class Home_Page extends ParentPage {
         for (int i=0; i<listMenu.size(); i++){
             if (strExpectedMenu.trim().equalsIgnoreCase(listMenu.get(i).getText().trim())){
                 listMenu.get(i).click();
+                break;
             }
         }
 
@@ -70,7 +71,8 @@ public class Home_Page extends ParentPage {
 
         }
 
-        Assert.assertEquals("H1 Tag mismatched", strTag.trim().toLowerCase(), get_Element_Text(h1_tag));
+        Assert.assertEquals( strTag.trim(), get_Element_Text(h1_tag),"H1 Tag mismatched");
+
 
 
     }
