@@ -25,7 +25,7 @@ public class Utils {
         this.driver=driver;
     }
 
-    public void Click(By by){ driver.findElement(by).click();}
+    public void click(By by){ driver.findElement(by).click();}
 
     public String getPageTitle(){
 
@@ -106,7 +106,7 @@ public class Utils {
         return lisElement;
     }
 
-    public void Click(WebElement objElement) {
+    public void click(WebElement objElement) {
 
         wait_explicit_till_element_Clickable(objElement);
         objElement.click();

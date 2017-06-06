@@ -10,14 +10,14 @@ import cucumber.api.java.Before;
 public class Base_Step_Definition extends ParentScenario {
 
     @Before
-    public void BeforeScenario(){
-        Before_Setup();
+    public void beforeScenario(){
+        before_Setup();
     }
 
 
     @After
-    public void After_Scenario(){
-        After_Setup();
+    public void after_Scenario(){
+        after_Setup();
     }
 
 }

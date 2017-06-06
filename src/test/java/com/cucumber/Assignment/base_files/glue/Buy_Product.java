@@ -11,14 +11,14 @@ import cucumber.api.java.en.When;
 public class Buy_Product extends ParentScenario {
 
     @Given("I am on google website")
-    public void Launch_Google(){
+    public void launch_Google(){
         String strUrl = "https://www.google.co.uk/";
         System.out.println("ssss"+ strUrl);
-        Launch_URL(strUrl);
+        launch_URL(strUrl);
     }
 
     @And("I search for product as \"(.*)\"")
-    public void Search_Product(String strProduct){
+    public void search_Product(String strProduct){
         objGoogle_Home_Page.Search_Google(strProduct);
     }
 

@@ -18,7 +18,7 @@ public class ParentScenario {
   protected  static Google_Result_Page objGoogle_Result_Page;
   protected  static Amazon_Result_Page obj_Amazon_Result_Page;
 
-  public void Before_Setup(){
+  public void before_Setup(){
 
     driver = new ChromeDriver();
     objGoogle_Home_Page = new Google_Home_Page(driver);
@@ -27,11 +27,11 @@ public class ParentScenario {
 
   }
 
-  public void After_Setup(){
-    //driver.quit();
+  public void after_Setup(){
+    driver.quit();
   }
 
-  public void Launch_URL(String url){
+  public void launch_URL(String url){
 
     System.out.println("In launch url setup"+driver);
     driver.get(url);
