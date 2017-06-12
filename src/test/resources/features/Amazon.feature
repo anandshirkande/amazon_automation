@@ -2,7 +2,7 @@ Feature: To verify basic functionality of amazon
 
   Background:
     Given I am on amazon website
-    When I have searched for iPhone 7
+    When I have searched for iPhone
 
     @runSmoke
     Scenario: Verify Price Displayed

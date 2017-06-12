@@ -18,9 +18,9 @@ public class Amazon_Home_Page_Steps extends ParentScenario {
         launch_URL(url);
     }
 
-    @And("I have searched for iPhone 7")
+    @And("I have searched for iPhone")
     public void search_product(){
-        String strProduct = "iPhone 7";
+        String strProduct = "iPhone";
         objAmazon_Home_Page.search_product(strProduct);
     }
 

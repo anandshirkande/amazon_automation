@@ -17,8 +17,8 @@ public class Search_Result_List extends ParentPage {
 
     WebDriver driver;
     By search_result_product = By.xpath("//ul[@id='s-results-list-atf']/li");
-    By product_title_link = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
-    By product_price = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]//span[contains(@class, 'a-color-price')]");
+    By product_title_link = By.xpath(".//div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
+    By product_price = By.xpath(".//div[contains(@class, 'a-column')]//div[1]//a/span[contains(@class, 'a-color-price')]");
   //  By product_link  = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
 
     public Search_Result_List(WebDriver driver){
@@ -85,10 +85,13 @@ public class Search_Result_List extends ParentPage {
         List<WebElement> list_Search_Result = get_Element_List(search_result_product);
 
         for (WebElement we:list_Search_Result){
-            tempTitle = we.findElement(product_title_link).getText();
-            tempPrice = we.findElement(product_price).getText();
-            tempPrice = tempPrice.replace("£", "");
-            list_Product.add(new Search_Result_List_Item(driver,tempTitle, tempPrice));
+            if(we.getText().contains("Shop by Category")==false) {
+
+                tempTitle = we.findElement(product_title_link).getText();
+                tempPrice = we.findElement(product_price).getText();
+                tempPrice = tempPrice.replace("£", "");
+                list_Product.add(new Search_Result_List_Item(driver, tempTitle, tempPrice));
+            }
         }
 
         return  list_Product;

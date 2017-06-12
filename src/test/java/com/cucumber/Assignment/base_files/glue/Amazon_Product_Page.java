@@ -17,7 +17,7 @@ public class Amazon_Product_Page extends ParentScenario {
     public void add_cheapest_item_to_basket(){
         String strCriterion = "Price: Low to High";
         objAmazon_Result_Page.sort_result_list(strCriterion);
-        objAmazon_Result_Page.select_product(1);
+        objAmazon_Result_Page.select_product(0);
         objAmazon_Product_Page.add_product_to_basket();
     }
 }
