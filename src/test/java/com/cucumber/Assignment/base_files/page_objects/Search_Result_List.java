@@ -17,9 +17,9 @@ public class Search_Result_List extends ParentPage {
 
     WebDriver driver;
     By search_result_product = By.xpath("//ul[@id='s-results-list-atf']/li");
-    By product_title = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
+    By product_title_link = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
     By product_price = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]//span[contains(@class, 'a-color-price')]");
-
+  //  By product_link  = By.xpath(".//div[contains(@class, 'a-spacing-mini')]/div[contains(@class, 'a-spacing-none')]/a[contains(@class, 's-access-detail-page')]");
 
     public Search_Result_List(WebDriver driver){
         super(driver);
@@ -85,7 +85,7 @@ public class Search_Result_List extends ParentPage {
         List<WebElement> list_Search_Result = get_Element_List(search_result_product);
 
         for (WebElement we:list_Search_Result){
-            tempTitle = we.findElement(product_title).getText();
+            tempTitle = we.findElement(product_title_link).getText();
             tempPrice = we.findElement(product_price).getText();
             tempPrice = tempPrice.replace("£", "");
             list_Product.add(new Search_Result_List_Item(driver,tempTitle, tempPrice));
@@ -116,5 +116,41 @@ public class Search_Result_List extends ParentPage {
 
         Assert.assertEquals(true, result, "Both array list are matching.");
 
+    }
+
+    public void select_product_item(Integer intIndex){
+
+        Integer i =0;
+
+        wait_Specific_Seconds(5000);
+
+        List<WebElement> list_Search_Result = get_Element_List(search_result_product);
+
+        WebElement objProduct = list_Search_Result.get(intIndex).findElement(product_title_link);
+
+        for (WebElement we: list_Search_Result){
+            if (i==intIndex){
+                click(we.findElement(product_title_link));
+               // click(we);
+                break;
+            }
+            i++;
+        }
+
+    }
+
+    public void verify_price_displayed_for_products(){
+
+        String tempPrice = "";
+
+        List<WebElement> list_Search_Result = get_Element_List(search_result_product);
+
+        for (int i =0; i < 5; i++){
+
+             tempPrice = list_Search_Result.get(i).findElement(product_price).getText();
+
+             Assert.assertEquals(false, tempPrice.isEmpty(), "Price not diaplyed");
+
+        }
     }
 }

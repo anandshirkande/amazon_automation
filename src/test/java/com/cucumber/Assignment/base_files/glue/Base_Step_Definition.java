@@ -15,7 +15,7 @@ public class Base_Step_Definition extends ParentScenario {
     }
 
 
-   // @After
+    @After
     public void after_Scenario(){
         after_Setup();
     }

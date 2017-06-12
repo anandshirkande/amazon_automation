@@ -27,4 +27,12 @@ public class Amazon_Search_Result_Page extends ParentPage {
     public void verify_sorting_of_result_list(String strCriterion){
         obj_Search_Result_List.Verify_Sorting_Order(strCriterion);
     }
+
+    public void select_product(Integer intIndex){
+      obj_Search_Result_List.select_product_item(intIndex);
+    }
+
+    public void verify_price_displayed_for_products(){
+        obj_Search_Result_List.verify_price_displayed_for_products();
+    }
 }

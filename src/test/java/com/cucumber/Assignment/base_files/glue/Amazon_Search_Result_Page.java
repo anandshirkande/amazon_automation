@@ -10,6 +10,11 @@ import cucumber.api.java.en.Then;
 public class Amazon_Search_Result_Page extends ParentScenario {
 
 
+    @Then("I can see price for first five items")
+    public void verify_price_displayed(){
+        objAmazon_Result_Page.verify_price_displayed_for_products();
+    }
+
     @And("I sort list based on \"(.*)\"")
     public void sort_result_list(String strCriterion){
         objAmazon_Result_Page.sort_result_list(strCriterion);
@@ -19,4 +24,6 @@ public class Amazon_Search_Result_Page extends ParentScenario {
     public void verify_sorting_of_list(String strCriterion){
         objAmazon_Result_Page.verify_sorting_of_result_list(strCriterion);
     }
+
+
 }
