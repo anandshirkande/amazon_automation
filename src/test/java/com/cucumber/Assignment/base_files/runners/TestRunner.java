@@ -14,9 +14,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 
-/**
- * Created by shirkandea on 31/03/2017.
- */
 @CucumberOptions(
         features = "src/test/resources/features/",
         glue = "com.cucumber.Assignment.base_files.glue",

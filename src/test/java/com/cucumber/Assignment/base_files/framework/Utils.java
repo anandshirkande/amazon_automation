@@ -14,9 +14,7 @@ import java.util.List;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by shirkandea on 29/03/2017.
- */
+
 public class Utils {
 
     private WebDriver driver;

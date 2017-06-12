@@ -7,9 +7,7 @@ import com.cucumber.Assignment.base_files.page_objects.Amazon_home_page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/**
- * Created by shirkandea on 29/03/2017.
- */
+
 public class ParentScenario {
 
 
