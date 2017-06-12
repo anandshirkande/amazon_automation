@@ -1,8 +1,7 @@
 package com.cucumber.Assignment.base_files.framework;
 
-import com.cucumber.Assignment.base_files.glue.Valtech_Home_Page_Steps;
-import com.cucumber.Assignment.base_files.pageObjects.Contact_Page;
-import com.cucumber.Assignment.base_files.pageObjects.Home_Page;
+import com.cucumber.Assignment.base_files.page_objects.Amazon_Search_Result_Page;
+import com.cucumber.Assignment.base_files.page_objects.Amazon_home_page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,15 +12,15 @@ public class ParentScenario {
 
 
   private static WebDriver driver;
-  protected  static Home_Page obj_home_Page;
-  protected  static Contact_Page obj_contact_page;
+  protected static Amazon_home_page objAmazon_Home_Page;
+  protected static Amazon_Search_Result_Page objAmazon_Result_Page;
+
 
   public void before_Setup(){
 
     driver = new ChromeDriver();
-    obj_home_Page = new Home_Page(driver);
-    obj_contact_page = new Contact_Page(driver);
-
+    objAmazon_Home_Page = new Amazon_home_page(driver);
+    objAmazon_Result_Page = new Amazon_Search_Result_Page(driver);
   }
 
   public void after_Setup(){

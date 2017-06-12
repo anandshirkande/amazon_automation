@@ -5,9 +5,10 @@ import org.openqa.selenium.WebDriver;
 /**
  * Created by shirkandea on 29/03/2017.
  */
-public class ParentPage extends Utils{
+public class ParentPage extends  Utils {
 
     public ParentPage(WebDriver driver){
         super(driver);
+
     }
 }

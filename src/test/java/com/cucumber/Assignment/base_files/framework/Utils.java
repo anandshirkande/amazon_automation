@@ -27,6 +27,8 @@ public class Utils {
 
     public void click(By by){ driver.findElement(by).click();}
 
+    public WebElement getElement(By by){ return driver.findElement(by);}
+
     public String getPageTitle(){
 
         return  driver.getTitle();
@@ -120,6 +122,16 @@ public class Utils {
 
         //  .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='WebDriver']")));
 
+    }
+
+    public void wait_Specific_Seconds(long sec) {
+
+        try {
+            Thread.sleep(sec);
+        } catch (Exception e) {
+
+        }
+        driver.manage().timeouts().implicitlyWait(sec, TimeUnit.SECONDS);
     }
 
 
