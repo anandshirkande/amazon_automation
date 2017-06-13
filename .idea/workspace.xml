@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd020ef-737e-4af9-9c86-c2181d6b267b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentScenario.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentScenario.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/data_set.properties" afterPath="$PROJECT_DIR$/src/test/resources/data_set.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" afterPath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/data_set.properties" afterPath="$PROJECT_DIR$/target/test-classes/data_set.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" />
     </list>
     <ignored path="BuildIT_Anand_Tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParentScenario.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParentScenario.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="243">
               <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding />
             </state>
@@ -52,7 +48,7 @@
       <file leaf-file-name="Amazon.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Amazon.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="360">
               <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
@@ -62,7 +58,7 @@
       <file leaf-file-name="Amazon_Product_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="240">
               <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,18 +90,18 @@
       <file leaf-file-name="Amazon_Home_Page_Steps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="255">
               <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search_Result_List.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Search_Result_List.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+            <state relative-caret-position="150">
+              <caret line="131" column="6" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="6" />
               <folding>
                 <element signature="e#2735#2760#0" expanded="true" />
               </folding>
@@ -116,7 +112,7 @@
       <file leaf-file-name="Utils.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="555">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
@@ -194,12 +190,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/runners/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Amazon.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java" />
         <option value="$PROJECT_DIR$/src/test/resources/data_set.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" />
       </list>
     </option>
   </component>
@@ -218,7 +214,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -246,7 +242,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,6 +456,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="page_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BuildIT_Anand_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,6 +493,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -946,9 +972,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2017.06.12 at 15h 14m 03s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2017.06.12 at 15h 17m 29s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -976,6 +999,9 @@
     <history-entry file="TestRunner - 2017.06.13 at 12h 04m 18s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 14h 13m 46s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,7 +1013,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -998,8 +1024,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4700162" sideWeight="0.40988106" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5416667" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51898736" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.4929972" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1008,8 +1034,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.588141" sideWeight="0.5767327" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.588141" sideWeight="0.5767327" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1145,21 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11950#0" expanded="false" />
-            <element signature="e#3272#3273#0" expanded="false" />
-            <element signature="e#3303#3304#0" expanded="false" />
-            <element signature="e#4161#4162#0" expanded="false" />
-            <element signature="e#4211#4212#0" expanded="false" />
-            <element signature="e#10229#10230#0" expanded="false" />
-            <element signature="e#10270#10271#0" expanded="false" />
-            <element signature="e#10337#10338#0" expanded="false" />
-            <element signature="e#10389#10390#0" expanded="false" />
-            <element signature="e#10445#10446#0" expanded="false" />
-            <element signature="e#10490#10491#0" expanded="false" />
-            <element signature="e#10561#10562#0" expanded="false" />
-            <element signature="e#10617#10618#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,42 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#57689#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1588#1589#0" expanded="false" />
-            <element signature="e#1616#1617#0" expanded="false" />
-            <element signature="e#1874#1875#0" expanded="false" />
-            <element signature="e#1909#1910#0" expanded="false" />
-            <element signature="e#15923#15924#0" expanded="false" />
-            <element signature="e#15973#15974#0" expanded="false" />
-            <element signature="e#33488#33489#0" expanded="false" />
-            <element signature="e#33534#33535#0" expanded="false" />
-            <element signature="e#34503#34504#0" expanded="false" />
-            <element signature="e#34547#34548#0" expanded="false" />
-            <element signature="e#38267#38268#0" expanded="false" />
-            <element signature="e#38325#38326#0" expanded="false" />
-            <element signature="e#47001#47002#0" expanded="false" />
-            <element signature="e#47057#47058#0" expanded="false" />
-            <element signature="e#49011#49012#0" expanded="false" />
-            <element signature="e#49067#49068#0" expanded="false" />
-            <element signature="e#49949#49950#0" expanded="false" />
-            <element signature="e#50005#50006#0" expanded="false" />
-            <element signature="e#50891#50892#0" expanded="false" />
-            <element signature="e#50947#50948#0" expanded="false" />
-            <element signature="e#51837#51838#0" expanded="false" />
-            <element signature="e#51893#51894#0" expanded="false" />
-            <element signature="e#52537#52538#0" expanded="false" />
-            <element signature="e#52575#52576#0" expanded="false" />
-            <element signature="e#53351#53352#0" expanded="false" />
-            <element signature="e#53421#53422#0" expanded="false" />
-            <element signature="e#54191#54192#0" expanded="false" />
-            <element signature="e#54237#54238#0" expanded="false" />
-            <element signature="e#54936#54937#0" expanded="false" />
-            <element signature="e#55010#55011#0" expanded="false" />
-            <element signature="e#57656#57657#0" expanded="false" />
-            <element signature="e#57684#57685#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1312,9 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding>
-            <element signature="e#5592#5593#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1322,13 +1294,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="555">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
@@ -1336,25 +1307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="255">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="87" column="63" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
-          <folding>
-            <element signature="e#2735#2760#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="360">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
@@ -1362,7 +1323,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
+        <state relative-caret-position="240">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1398,15 +1359,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="2" column="152" selection-start-line="2" selection-start-column="152" selection-end-line="2" selection-end-column="152" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="243">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="131" column="6" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="6" />
+          <folding>
+            <element signature="e#2735#2760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

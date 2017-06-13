@@ -131,14 +131,16 @@ public class Search_Result_List extends ParentPage {
 
         WebElement objProduct = list_Search_Result.get(intIndex).findElement(product_title_link);
 
-        for (WebElement we: list_Search_Result){
+        click(list_Search_Result.get(intIndex).findElement(product_title_link));
+
+    /*    for (WebElement we: list_Search_Result){
             if (i==intIndex){
                 click(we.findElement(product_title_link));
                // click(we);
                 break;
             }
             i++;
-        }
+        }*/
 
     }
 
