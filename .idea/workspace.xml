@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbd020ef-737e-4af9-9c86-c2181d6b267b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentScenario.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/ParentScenario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/Utils.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/framework/Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/runners/TestRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/cucumber/Assignment/base_files/runners/TestRunner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Search_Result_List.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/Amazon.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Amazon.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" afterPath="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/data_set.properties" afterPath="$PROJECT_DIR$/src/test/resources/data_set.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" afterPath="$PROJECT_DIR$/target/Automation_Reports/Automation_Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/Amazon.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/Amazon.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/data_set.properties" afterPath="$PROJECT_DIR$/target/test-classes/data_set.properties" />
     </list>
     <ignored path="BuildIT_Anand_Tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,6 +39,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ParentScenario.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Amazon.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Amazon.feature">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Amazon_Product_Page.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Amazon_Product_Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
@@ -65,6 +67,26 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_set.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data_set.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extent-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/extent-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,56 +119,6 @@
             <state relative-caret-position="76">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteWebElement.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.3.1/selenium-remote-driver-3.3.1.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-              <folding>
-                <element signature="e#5592#5593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="By.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.3.1/selenium-api-3.3.1.jar!/org/openqa/selenium/By.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Amazon_Search_Result_Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Search_Result_Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Amazon_Search_Result_Page.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Amazon_Search_Result_Page.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/framework/Utils.java" />
         <option value="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Verify_Weather_Forecast_Report.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/data_set.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/BuildIT/base_files/runners/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/MatchesFashion/base_files/glue/Base_Step_Definition.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/MatchesFashion/base_files/framework/ParentScenario.java" />
@@ -220,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/page_objects/Amazon_Search_Result_Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Search_Result_Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/runners/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Home_Page_Steps.java" />
@@ -228,6 +198,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Amazon.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Amazon_Product_Page.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/data_set.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java" />
       </list>
     </option>
   </component>
@@ -398,8 +370,34 @@
               <option name="myItemId" value="base_files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="runners" />
+              <option name="myItemId" value="BuildIT_Anand_Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amazon_automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base_files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,37 +427,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page_objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BuildIT_Anand_Tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amazon_automation" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="glue" />
+              <option name="myItemId" value="chrome_mac" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -506,6 +478,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/resources/chrome_mac" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/resources/Chrome_Mac" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.TestRunner">
     <configuration default="false" name="Feature: Verify_Default_Values (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -966,21 +946,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2017.06.12 at 13h 36m 47s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.06.12 at 13h 41m 17s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.06.12 at 15h 01m 30s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.06.12 at 15h 02m 50s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.06.12 at 15h 04m 41s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestRunner - 2017.06.12 at 15h 14m 03s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
@@ -994,6 +959,21 @@
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestRunner - 2017.06.12 at 15h 22m 32s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 11h 57m 29s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 12h 00m 26s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 12h 01m 11s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 12h 03m 56s.xml">
+      <configuration name="TestRunner" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.06.13 at 12h 04m 18s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1018,7 +998,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4700162" sideWeight="0.40988106" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5416667" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5416667" sideWeight="0.59011894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.4929972" order="9" side_tool="false" content_ui="tabs" />
@@ -1061,14 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Resources/Test.html" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.40/extentreports-2.40-sources.jar!/com/relevantcodes/extentreports/ExtentReports.java">
@@ -1130,20 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/extent-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data_set.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1275,9 +1233,9 @@
         <state relative-caret-position="300">
           <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1287,18 +1245,10 @@
         <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,10 +1289,10 @@
         <state relative-caret-position="93">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1352,8 +1302,8 @@
         <state relative-caret-position="93">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1402,14 +1352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1425,6 +1367,46 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data_set.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/extent-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/glue/Base_Step_Definition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/resources/chrome_mac/chromedriver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="2" column="152" selection-start-line="2" selection-start-column="152" selection-end-line="2" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cucumber/Assignment/base_files/framework/ParentScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

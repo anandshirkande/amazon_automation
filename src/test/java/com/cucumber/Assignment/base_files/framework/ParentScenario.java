@@ -20,6 +20,7 @@ public class ParentScenario {
 
   public void before_Setup(){
 
+    System.setProperty("webdriver.chrome.driver","src/test/java/com/cucumber/Assignment/base_files/resources/chrome_mac/chromedriver");
     driver = new ChromeDriver();
     objAmazon_Home_Page = new Amazon_home_page(driver);
     objAmazon_Result_Page = new Amazon_Search_Result_Page(driver);
